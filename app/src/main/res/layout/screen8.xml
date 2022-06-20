@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000" >
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="396.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="5.0dip"
+        android:layout_y="291.0dip"
+        android:gravity="right"
+        android:text="9"
+        android:textColor="#ffffffff"
+        android:textSize="220.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="213.0dip"
+        android:layout_y="262.0dip"
+        android:gravity="left"
+        android:text="Score "
+        android:textColor="#ffffffff"
+        android:textSize="60.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="543.0dip"
+        android:layout_y="269.0dip"
+        android:gravity="left"
+        android:text="Remaining Balls   "
+        android:textColor="#ffffffff"
+        android:textSize="60.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="673.0dip"
+        android:layout_y="328.0dip"
+        android:gravity="center"
+        android:text="99"
+        android:textColor="#ffffffff"
+        android:textSize="180.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/tv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="1.0dip"
+        android:layout_y="0.0dip"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="NITIN"
+        android:textColor="#ffffffff"
+        android:textSize="100.0sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@id/restart"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_x="5.0dip"
+        android:layout_y="5.0dip"
+        android:src="@drawable/home_img" />
+
+    <RelativeLayout
+        android:id="@+id/Relative1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#D70000"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/anim"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="TOP SCORE"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <VideoView
+            android:id="@id/videoView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/anim"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/ZERO"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="-7.0dip"
+        android:layout_y="639.0dip"
+        android:clickable="true"
+        android:freezesText="false"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="0"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="50.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/wide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="518.0dip"
+        android:layout_y="639.0dip"
+        android:gravity="center"
+        android:text="WIDE"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="50.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/OUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="388.0dip"
+        android:layout_y="639.0dip"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="OUT"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="50.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/FOUR"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="185.0dip"
+        android:layout_y="639.0dip"
+        android:gravity="center"
+        android:text="4"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="50.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/ONE"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="85.0dip"
+        android:layout_y="639.0dip"
+        android:clickable="true"
+        android:freezesText="false"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="50.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/SIX"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="285.0dip"
+        android:layout_y="639.0dip"
+        android:gravity="center"
+        android:text="6"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="50.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/bowl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="680.0dip"
+        android:layout_y="637.0dip"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="BOWL"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/brek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="848.0dip"
+        android:layout_y="637.0dip"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="BREAK"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/demoanimation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fontFamily="fonts/TIMES.TTF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="DEMO"
+        android:textSize="400dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</AbsoluteLayout>

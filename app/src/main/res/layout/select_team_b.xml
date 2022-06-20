@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="1023dp"
+        android:layout_height="654dp"
+        android:layout_x="95.0dip"
+        android:layout_y="56.0dip">
+
+        <TableLayout
+            android:layout_width="800.0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_x="120.0dip"
+            android:layout_y="27.0dip">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="800.0dip"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/player1b"
+                    android:layout_width="800.0dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:ems="20"
+                    android:gravity="center"
+                    android:hint="Player 1"
+                    android:inputType="textCapCharacters"
+                    android:singleLine="true"
+                    android:textSize="30.0dip"
+                    android:visibility="gone" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="800.0dip"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/player2b"
+                    android:layout_width="800.0dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:ems="20"
+                    android:gravity="center"
+                    android:hint="Player 2"
+                    android:inputType="textCapCharacters"
+                    android:singleLine="true"
+                    android:textSize="30.0dip"
+                    android:visibility="gone" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="800.0dip"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/player3b"
+                    android:layout_width="800.0dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:ems="20"
+                    android:gravity="center"
+                    android:hint="Player 3"
+                    android:inputType="textCapCharacters"
+                    android:singleLine="true"
+                    android:textSize="30.0dip"
+                    android:visibility="gone" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="800.0dip"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/player4b"
+                    android:layout_width="800.0dip"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background"
+                    android:ems="20"
+                    android:gravity="center"
+                    android:hint="Player 4"
+                    android:inputType="textCapCharacters"
+                    android:singleLine="true"
+                    android:textSize="30.0dip"
+                    android:visibility="gone" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="28.0dip"
+        android:gravity="center"
+        android:text="Enter Players Name For Team B"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="30.0dip"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1110dp"
+        android:layout_y="577dp"
+        android:src="@drawable/next1" />
+
+</AbsoluteLayout>

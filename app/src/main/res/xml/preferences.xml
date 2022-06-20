@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="setting"
+        android:title="Setting" >
+        <EditTextPreference
+            android:id="@+id/scroll"
+            android:defaultValue="Top Score"
+            android:dialogTitle="Enter text"
+            android:inputType="textNoSuggestions"
+            android:key="scroll"
+            android:title="Moving Text" />
+
+        <Preference
+            android:id="@+id/upload"
+            android:key="upload"
+            android:title="Force Upload" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.cricket.cricgame.TryUpload"
+                android:targetPackage="com.cricket.cricgame" />
+        </Preference>
+        <Preference
+            android:id="@+id/wifi"
+            android:key="wifi"
+            android:title="WiFi" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.cricket.preference.WifiSettings"
+                android:targetPackage="com.cricket.cricgame" />
+        </Preference>
+        <Preference
+            android:id="@+id/finish"
+            android:key="finish"
+            android:title="Finish" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.cricket.cricgame.Main"
+                android:targetPackage="com.cricket.cricgame" />
+        </Preference>
+
+        <PreferenceCategory
+            android:key="wificonnections"
+            android:title="WIFI Setting" 
+            android:enabled="false">"
+            <Preference
+                android:id="@+id/wifiCommands"
+                android:key="connect"
+                android:summary="Select file for communication"
+                android:title="WiFi Connectivity" >
+            </Preference>
+        </PreferenceCategory>
+    </PreferenceCategory>
+
+</PreferenceScreen>

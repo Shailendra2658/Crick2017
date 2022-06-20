@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:background="#D70000" >
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/anim" />
+    
+    <TextView
+	    android:id="@+id/anim"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:text="Popup3 Text"
+	    android:textColor="#ffffff"
+	    android:background="#D70000"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+<TextView
+        android:id="@+id/demovideoanimation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textSize="400dp"
+        android:textStyle="bold"
+                android:textColor="#000000"
+        
+        android:fontFamily="fonts/TIMES.TTF"
+        android:text="DEMO" 
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/closes"
+        android:layout_width="60.0dip"
+        android:layout_height="60.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/delete" />
+
+</RelativeLayout>

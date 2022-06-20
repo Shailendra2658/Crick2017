@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "74",
+                        "endOffsets": "127"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "73",
+                        "endOffsets": "124"
+                    }
+                },
+                {
+                    "source": "/Users/shailendra/.gradle/caches/transforms-3/f9e309950734fd21bf18cce519241eb6/transformed/appcompat-v7-21.0.3/res/values-v11/values.xml",
+                    "from": {
+                        "startLines": "3,10,17,24,31,38,45,52,59,66,73,75,77,79,176,178,180,186,233,280,328",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,476,902,1331,1758,2188,2614,3036,3472,3906,4354,4434,4528,4620,11350,11453,11578,11943,15581,19233,23010",
+                        "endLines": "8,15,22,29,36,43,50,57,64,71,73,75,77,174,176,178,184,231,278,326,374",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,78,92,90,12,101,123,12,12,12,12,12",
+                        "endOffsets": "470,896,1325,1752,2182,2608,3030,3466,3900,4348,4428,4522,4614,11344,11447,11572,11937,15575,19227,23004,26795"
+                    },
+                    "to": {
+                        "startLines": "3,9,15,21,27,33,39,45,51,57,63,64,65,66,162,163,164,169,215,261,308",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "129,548,973,1401,1827,2256,2681,3102,3537,3970,4417,4495,4587,4677,11406,11501,11618,11982,15619,19270,23046",
+                        "endLines": "8,14,20,26,32,38,44,50,56,62,63,64,65,161,162,163,168,214,260,307,354",
+                        "endColumns": "12,12,12,12,12,12,12,12,12,12,77,91,89,12,94,116,12,12,12,12,12",
+                        "endOffsets": "543,968,1396,1822,2251,2676,3097,3532,3965,4412,4490,4582,4672,11401,11496,11613,11977,15614,19265,23041,26831"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000">
+
+    <ImageView
+        android:id="@+id/restart"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_x="-2.0dip"
+        android:layout_y="-7.0dip"
+        android:src="@drawable/delete" />
+
+    <TextView
+        android:id="@+id/won"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Won  "
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="70.0dip"
+        android:textStyle="bold" />
+</RelativeLayout>

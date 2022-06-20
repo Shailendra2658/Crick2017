@@ -1,0 +1,510 @@
+[
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_auth.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/auth.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_action_discover.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/ic_action_discover.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_screen_chall1.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/screen_chall1.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen7.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen7.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_logo.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/logo.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable_button_down.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable/button_down.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_congrats.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/congrats.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_device_detail.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/device_detail.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen0.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen0.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_hiphen.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/hiphen.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_start.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/start.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/anim_moving_text.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/anim/moving_text.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_zeroa.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/zeroa.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_e.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/e.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_screen8.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/screen8.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_teamselectpayer2.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/teamselectpayer2.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_select_team_b.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/select_team_b.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_wide_popup.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/wide_popup.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_gradient_bg_hover.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/gradient_bg_hover.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_arrow.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/arrow.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen8.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen8.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-ldpi_setting.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-ldpi/setting.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_onea.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/onea.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen_chall1.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen_chall1.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_screen9.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/screen9.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_list_row.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/list_row.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen1.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen1.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_sixa.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/sixa.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_fangroo.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/fangroo.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_r.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/r.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_d.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/d.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_popup_layout.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/popup_layout.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_row_devices.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/row_devices.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_team_name.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/team_name.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_home_img.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/home_img.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_amp.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/amp.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_action_search.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_sevena.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/sevena.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_team_name_a.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/team_name_a.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_sports.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/sports.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_image_bg.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/image_bg.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_tryagain.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/tryagain.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/xml_wifi_preferences.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/xml/wifi_preferences.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_activity_wifi_settings.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/activity_wifi_settings.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_b.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/b.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_enter.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/enter.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen_chall.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen_chall.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_at.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/at.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_breaks.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/breaks.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_screen1_chat.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/screen1_chat.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_fa.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/fa.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_popup4.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/popup4.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_twoa.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/twoa.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen6.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen6.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_threea.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/threea.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_screen7.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/screen7.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_no_image.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/no_image.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-ldpi_logo.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-ldpi/logo.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_colon.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/colon.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen9.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen9.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_sixnew.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/sixnew.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_breaks.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/breaks.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screens3.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screens3.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_o.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/o.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_com.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/com.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_wifi_settings.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/wifi_settings.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_dot.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/dot.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_action_items.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/action_items.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_restart.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/restart.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen3.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen3.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_ninea.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/ninea.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-xhdpi_logo.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-xhdpi/logo.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-ldpi_ic_launcher.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_main.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_logo.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_gradient_bg.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/gradient_bg.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_four.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/four.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_popup2.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/popup2.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_settings.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/settings.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen4.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen4.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_foura.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/foura.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_www.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/www.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_g.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/g.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable_details_view.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable/details_view.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_device_list.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/device_list.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_auth.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/auth.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_eighta.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/eighta.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable_section_header.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable/section_header.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_delea.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/delea.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_aamain.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/aamain.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_team_name.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/team_name.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_a.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/a.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_delete.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/delete.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_wifi_direct.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/wifi_direct.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_bgcrick.jpg.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/bgcrick.jpg"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_list_selector.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/list_selector.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_activity_main.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/activity_main.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen5.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen5.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_select_team_a.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/select_team_a.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_popup3.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/popup3.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_backspaace.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/backspaace.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_tap_to_start.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/tap_to_start.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable_login_button.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable/login_button.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable_machine.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable/machine.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_upload.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/upload.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screens1.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screens1.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_screen6.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/screen6.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_login.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/login.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/xml_preferences.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/xml/preferences.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_next1.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/next1.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/menu_screen_chall.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/menu/screen_chall.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_skip1.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/skip1.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_camera_recoding.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/camera_recoding.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_pricing.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/pricing.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_c.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/c.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_screen2.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/screen2.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/anim_blink.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/anim/blink.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_background.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/background.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_nextkey.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/nextkey.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_fivea.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/fivea.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/layout_videos.xml.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/layout/videos.xml"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-mdpi_repeat_bg.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-mdpi/repeat_bg.png"
+    },
+    {
+        "merged": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/build/intermediates/merged_res/debug/drawable-hdpi_ic_action_on_off.png.flat",
+        "source": "/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/res/drawable-hdpi/ic_action_on_off.png"
+    }
+]

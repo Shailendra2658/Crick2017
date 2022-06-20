@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000">
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="126.0dip"
+        android:background="#ffffffff"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/TextView12"
+            android:layout_width="275.0dip"
+            android:layout_height="40.0dip"
+            android:text="Team A"
+            android:textColor="#ff000000"
+            android:textSize="35.0dip" />
+
+        <TextView
+            android:id="@+id/totala"
+            android:layout_width="99.0dip"
+            android:layout_height="43.0dip"
+            android:text="0"
+            android:textColor="#ff000000"
+            android:textSize="30.0dip" />
+
+        <TextView
+            android:id="@+id/TextView13"
+            android:layout_width="275.0dip"
+            android:layout_height="40.0dip"
+            android:layout_marginLeft="30.0dip"
+            android:text="Team B"
+            android:textColor="#ff000000"
+            android:textSize="35.0dip" />
+
+        <TextView
+            android:id="@+id/totalb"
+            android:layout_width="99.0dip"
+            android:layout_height="43.0dip"
+            android:text="0"
+            android:textColor="#ff000000"
+            android:textSize="30.0dip" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="150.0dip"
+        android:layout_height="80.0dip"
+        android:layout_x="836.0dip"
+        android:layout_y="590.0dip"
+        android:src="@drawable/restart"
+        android:visibility="gone" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="171.0dip"
+        android:background="#ffff0000"
+        android:gravity="center">
+
+        <TableRow
+            android:id="@+id/R1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30.0dip"
+            android:layout_marginBottom="20.0dip"
+            android:background="#ffffffff"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/player1_a"
+                android:layout_width="276.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff4f69ff"
+                android:gravity="center"
+                android:text="1234567890123"
+                android:textColor="#ffffffff"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p1_a"
+                android:layout_width="99.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff7fffff"
+                android:text="not out"
+                android:textColor="#ff000000"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/player1_b"
+                android:layout_width="276.0dip"
+                android:layout_height="43.0dip"
+                android:layout_marginLeft="30.0dip"
+                android:background="#ff4f69ff"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="1234567890123"
+                android:textColor="#ffffffff"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p1_b"
+                android:layout_width="99.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff7fffff"
+                android:text="not out"
+                android:textColor="#ff000000"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/R2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20.0dip"
+            android:background="#ffffffff"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/player2_a"
+                android:layout_width="276.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff4f69ff"
+                android:gravity="center"
+                android:text="1234567890123"
+                android:textColor="#ffffffff"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p2_a"
+                android:layout_width="99.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff7fffff"
+                android:text="not out"
+                android:textColor="#ff000000"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/player2_b"
+                android:layout_width="276.0dip"
+                android:layout_height="43.0dip"
+                android:layout_marginLeft="30.0dip"
+                android:background="#ff4f69ff"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="1234567890123"
+                android:textColor="#ffffffff"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p2_b"
+                android:layout_width="99.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff7fffff"
+                android:text="not out"
+                android:textColor="#ff000000"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/R3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20.0dip"
+            android:background="#ffffffff"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/player3_a"
+                android:layout_width="276.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff4f69ff"
+                android:gravity="center"
+                android:text="1234567890123"
+                android:textColor="#ffffffff"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p3_a"
+                android:layout_width="99.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff7fffff"
+                android:text="not out"
+                android:textColor="#ff000000"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/player3_b"
+                android:layout_width="276.0dip"
+                android:layout_height="43.0dip"
+                android:layout_marginLeft="30.0dip"
+                android:background="#ff4f69ff"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="1234567890123"
+                android:textColor="#ffffffff"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p3_b"
+                android:layout_width="99.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff7fffff"
+                android:text="not out"
+                android:textColor="#ff000000"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/R4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20.0dip"
+            android:background="#ffffffff"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/player4_a"
+                android:layout_width="276.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff4f69ff"
+                android:gravity="center"
+                android:text="1234567890123"
+                android:textColor="#ffffffff"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p4_a"
+                android:layout_width="99.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff7fffff"
+                android:text="not out"
+                android:textColor="#ff000000"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/player4_b"
+                android:layout_width="276.0dip"
+                android:layout_height="43.0dip"
+                android:layout_marginLeft="30.0dip"
+                android:background="#ff4f69ff"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="1234567890123"
+                android:textColor="#ffffffff"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/p4_b"
+                android:layout_width="99.0dip"
+                android:layout_height="43.0dip"
+                android:background="#ff7fffff"
+                android:text="not out"
+                android:textColor="#ff000000"
+                android:textSize="30.0dip"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="40.0dip"
+        android:gravity="center"
+        android:text="Select Player To Play"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="30.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="865.0dip"
+        android:layout_y="608.0dip"
+        android:text="Restart"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ff000000"
+        android:textSize="30.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+</AbsoluteLayout>

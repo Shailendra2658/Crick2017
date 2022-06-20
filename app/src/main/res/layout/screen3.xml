@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000" >
+
+    <EditText
+        android:id="@+id/over"
+        android:layout_width="500.0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:inputType="phone"
+        android:paddingLeft="60.0dip"
+        android:singleLine="true"
+        android:textSize="40.0sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="150.0dip"
+        android:layout_height="80.0dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/over"
+        android:src="@drawable/next1" />
+
+    <TextView
+        android:id="@+id/customer_satisfactionlabel1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/over"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="26.0dip"
+        android:gravity="center"
+        android:text="How many over game? "
+        android:textColor="#ffffff"
+        android:textSize="40.0dip"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/over"
+        android:layout_below="@+id/over"
+        android:layout_marginLeft="25dp"
+        android:text="Enable Demo Game"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

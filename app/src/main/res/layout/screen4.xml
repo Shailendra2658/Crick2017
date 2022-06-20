@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000" >
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="160.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="917.0dip"
+        android:layout_y="600.0dip"
+        android:src="@drawable/nextkey"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/teama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="833.0dip"
+        android:layout_y="141.0dip"
+        android:gravity="center"
+        android:text="Team A  "
+        android:textColor="#ffffffff"
+        android:textSize="40.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/scorea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="839.0dip"
+        android:layout_y="175.0dip"
+        android:gravity="right"
+        android:text="0 "
+        android:textColor="#ffffffff"
+        android:textSize="120.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/scoreb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="845.0dip"
+        android:layout_y="374.0dip"
+        android:gravity="center"
+        android:text="0 "
+        android:textColor="#ffffffff"
+        android:textSize="120.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/teamb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="836.0dip"
+        android:layout_y="342.0dip"
+        android:gravity="center"
+        android:text="Team B  "
+        android:textColor="#ffffffff"
+        android:textSize="40.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/rscore"
+        android:layout_width="90.0dip"
+        android:layout_height="90.0dip"
+        android:layout_x="888.0dip"
+        android:layout_y="11.0dip"
+        android:src="@drawable/r"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="600.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="149.0dip"
+        android:layout_y="6.0dip"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="NITIN"
+        android:textColor="#ffffffff"
+        android:textSize="100.0dip"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/restart"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_x="38.0dip"
+        android:layout_y="6.0dip"
+        android:src="@drawable/home_img" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="106.0dip"
+        android:layout_y="291.0dip"
+        android:gravity="left"
+        android:text="Score "
+        android:textColor="#ffffffff"
+        android:textSize="60.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="512.0dip"
+        android:layout_y="298.0dip"
+        android:gravity="left"
+        android:text="Over :  "
+        android:textColor="#ffffffff"
+        android:textSize="60.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="498.0dip"
+        android:layout_y="355.0dip"
+        android:gravity="right"
+        android:text="0.0 "
+        android:textColor="#ffffffff"
+        android:textSize="150.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74.0dip"
+        android:layout_x="91.0dip"
+        android:layout_y="321.0dip"
+        android:gravity="center"
+        android:text="0 "
+        android:textColor="#ffffffff"
+        android:textSize="220.0dip"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/Relative"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#D70000"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="#D70000"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/anim"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="TOP SCORE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <VideoView
+            android:id="@+id/videoView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/anim"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/demovideoanimation"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fontFamily="fonts/TIMES.TTF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:text="DEMO"
+            android:textColor="#000000"
+            android:textSize="400dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ZERO"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="-2.0dip"
+        android:layout_y="638.0dip"
+        android:clickable="true"
+        android:freezesText="false"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="0"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/wide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="526.0dip"
+        android:layout_y="638.0dip"
+        android:gravity="center"
+        android:text="WIDE"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/bowl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="683.0dip"
+        android:layout_y="638.0dip"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="BOWL"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0dip"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/brek"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="850.0dip"
+        android:layout_y="638.0dip"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="BREAK"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/OUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="396.0dip"
+        android:layout_y="638.0dip"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="OUT"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0dip"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/FOUR"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="190.0dip"
+        android:layout_y="638.0dip"
+        android:gravity="center"
+        android:text="4"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ONE"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="90.0dip"
+        android:layout_y="638.0dip"
+        android:clickable="true"
+        android:freezesText="false"
+        android:gravity="center"
+        android:linksClickable="true"
+        android:text="1"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/SIX"
+        android:layout_width="80.0dip"
+        android:layout_height="wrap_content"
+        android:layout_x="290.0dip"
+        android:layout_y="638.0dip"
+        android:gravity="center"
+        android:text="6"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="#ffffffff"
+        android:textSize="50.0dip"
+        android:textStyle="bold|italic"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/demoanimation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fontFamily="fonts/TIMES.TTF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="DEMO"
+        android:textSize="400dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</AbsoluteLayout>

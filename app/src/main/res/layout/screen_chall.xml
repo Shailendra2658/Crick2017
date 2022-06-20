@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000">
+
+    <ImageView
+        android:id="@id/restart"
+        android:layout_width="80.0dip"
+        android:layout_height="80.0dip"
+        android:layout_x="5.0dip"
+        android:layout_y="5.0dip"
+        android:src="@drawable/home_img" />
+
+    <ImageView
+        android:id="@id/next"
+        android:layout_width="150.0dip"
+        android:layout_height="80.0dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/target"
+        android:src="@drawable/next1" />
+
+    <EditText
+        android:id="@id/target"
+        android:layout_width="500.0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:inputType="phone"
+        android:paddingLeft="60.0dip"
+        android:singleLine="true"
+        android:textSize="40.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/customer_satisfactionlabel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/target"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21.0dip"
+        android:gravity="center"
+        android:text="   How many runs you can score? "
+        android:textColor="#ffffff"
+        android:textSize="40.0dip"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wide_popup"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#ffff0000" >
+
+    <ViewFlipper android:id="@+id/flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:flipInterval="1000" android:layout_x="-1.0dip" android:layout_y="187.0dip" android:foregroundGravity="center">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="#ffffff" />
+
+    </ViewFlipper>
+    <Button android:id="@+id/close" android:background="@drawable/delete" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_x="1.0dip" android:layout_y="3.0dip" />
+
+    <TextView
+        android:id="@+id/tv11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="WIDE BALL"
+        android:textColor="#ffffff"
+        android:textSize="150.0sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/demovideoanimation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textSize="400dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:fontFamily="fonts/TIMES.TTF"
+        android:text="DEMO" 
+        android:visibility="gone"/>
+
+</RelativeLayout>

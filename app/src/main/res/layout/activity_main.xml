@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000" >
+
+    <ImageView
+        android:id="@+id/start"
+        android:layout_width="200.0dip"
+        android:layout_height="200.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="183.0dip"
+        android:src="@drawable/tap_to_start" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50.0dip"
+        android:text="Let&apos;s see how much you can score"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="45.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text="Wel-come to Top score sports"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="45.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/played"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="Total games played :0"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/today"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Total games played today:0"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Total games played in this month:0"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textView2"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="45.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/clientId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Your Id: 0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/month"
+        android:background="#00ffffff"
+        android:gravity="center"
+        android:text="Settings"
+        android:textColor="#ffffff"
+        android:textSize="21dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sports" />
+
+</RelativeLayout>

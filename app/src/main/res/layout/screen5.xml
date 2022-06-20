@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/restart" android:layout_width="104.0dip" android:layout_height="104.0dip" android:src="@drawable/delete" android:layout_x="-2.0dip" android:layout_y="-7.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="70.0dip" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/total" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="386.0dip" android:layout_marginTop="156.0dip" android:text="Your final score is :" android:layout_x="3.0dip" android:layout_y="66.0dip" />
+    <ViewFlipper android:id="@+id/flipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:flipInterval="1000" android:layout_x="0.0dip" android:layout_y="220.0dip" android:foregroundGravity="center">
+
+        <TextView
+            android:id="@+id/tota1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="100"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#ffffffff"
+            android:textSize="300.0sp"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" />
+</ViewFlipper>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="107.0dip"
+        android:layout_y="654.0dip"
+        android:text="Fours:"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="40.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="507.0dip"
+        android:layout_y="654.0dip"
+        android:text="Sixes:"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="40.0sp"
+        android:textStyle="bold" />
+    
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="827.0dip"
+        android:layout_y="654.0dip"
+        android:text="Balls:"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="40.0sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/fours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="236.0dip"
+        android:layout_y="654.0dip"
+        android:text="0"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="40.0sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/sixes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="630.0dip"
+        android:layout_y="654.0dip"
+        android:text="0"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="40.0sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/balls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="942.0dip"
+        android:layout_y="654.0dip"
+        android:text="0"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="40.0sp"
+        android:textStyle="bold|italic" />
+ <TextView
+        android:id="@+id/demovideoanimation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fontFamily="fonts/TIMES.TTF"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="DEMO"
+        android:textSize="400dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+    
+
+</AbsoluteLayout>

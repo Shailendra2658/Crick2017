@@ -1,0 +1,370 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cricket.cricgame"
+4    android:versionCode="29"
+5    android:versionName="2.5" >
+6
+7    <uses-sdk
+7-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:7:5-10:41
+8        android:maxSdkVersion="21"
+8-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:8:9-35
+9        android:minSdkVersion="14"
+9-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:9:9-35
+10        android:targetSdkVersion="21" />
+10-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:10:9-38
+11
+12    <uses-feature
+12-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:12:5-14:36
+13        android:name="android.hardware.location.network"
+13-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:13:9-57
+14        android:required="false" />
+14-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:14:9-33
+15    <uses-feature
+15-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:15:5-17:36
+16        android:name="android.hardware.wifi"
+16-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:16:9-45
+17        android:required="false" />
+17-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:17:9-33
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:19:5-67
+19-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:19:22-64
+20    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+20-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:20:5-76
+20-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:20:22-73
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:21:5-75
+21-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:21:22-72
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:22:5-79
+22-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:22:22-76
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:23:5-80
+23-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:23:22-77
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:24:5-81
+24-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:24:22-78
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:25:5-82
+25-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:25:22-79
+26    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+26-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:26:5-76
+26-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:26:22-73
+27    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+27-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:27:5-79
+27-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:27:22-76
+28    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+28-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:28:5-29:23
+28-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:28:22-68
+29    </uses-permission>
+30    <uses-permission android:name="android.permission.CAMERA" >
+30-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:30:5-31:23
+30-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:30:22-62
+31    </uses-permission>
+32
+33    <uses-feature android:name="android.hardware.camera" />
+33-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:33:5-60
+33-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:33:19-57
+34    <!-- Google Play filtering -->
+35    <uses-feature
+35-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:35:5-37:35
+36        android:name="android.hardware.wifi.direct"
+36-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:36:9-52
+37        android:required="true" />
+37-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:37:9-32
+38
+39    <application
+39-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:39:5-191:19
+40        android:allowBackup="true"
+40-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:40:9-35
+41        android:debuggable="true"
+42        android:icon="@drawable/logo"
+42-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:41:9-38
+43        android:label="@string/app_name"
+43-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:42:9-41
+44        android:screenOrientation="landscape"
+44-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:43:9-46
+45        android:testOnly="true"
+46        android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+46-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:44:9-79
+47        <activity
+47-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:45:9-47:48
+48            android:name="com.cricket.preference.PreferencesActivity"
+48-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:46:13-70
+49            android:label="@string/app_name" />
+49-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:47:13-45
+50        <activity
+50-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:48:10-51:20
+51            android:name="com.cricket.preference.WifiSettings"
+51-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:49:13-63
+52            android:label="@string/title_activity_wifi_settings" >
+52-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:50:13-65
+53        </activity>
+54        <activity
+54-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:52:9-54:48
+55            android:name="com.cricket.cricgame.TryUpload"
+55-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:53:13-38
+56            android:label="@string/app_name" />
+56-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:54:13-45
+57        <activity
+57-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:55:9-59:20
+58            android:name="com.cricket.cricgame.Auth"
+58-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:56:13-33
+59            android:label="@string/app_name"
+59-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:57:13-45
+60            android:screenOrientation="landscape" >
+60-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:58:13-50
+61        </activity>
+62        <activity
+62-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:60:9-69:20
+63            android:name="com.cricket.cricgame.Main"
+63-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:61:13-33
+64            android:screenOrientation="landscape"
+64-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:62:13-50
+65            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+65-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:63:13-83
+66            <intent-filter>
+66-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:64:13-68:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:65:17-69
+67-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:65:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:67:17-77
+69-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:67:27-74
+70            </intent-filter>
+71        </activity>
+72        <activity
+72-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:70:9-72:53
+73            android:name="com.cricket.cricgame.Phonesetting"
+73-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:71:13-41
+74            android:screenOrientation="landscape" />
+74-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:72:13-50
+75        <activity
+75-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:73:9-75:53
+76            android:name="com.cricket.cricgame.Pricing"
+76-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:74:13-36
+77            android:screenOrientation="landscape" />
+77-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:75:13-50
+78        <activity
+78-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:76:9-78:53
+79            android:name="com.cricket.cricgame.Screen0"
+79-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:77:13-36
+80            android:screenOrientation="landscape" />
+80-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:78:13-50
+81        <activity
+81-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:79:9-81:53
+82            android:name="com.cricket.cricgame.Popup2"
+82-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:80:13-35
+83            android:screenOrientation="landscape" />
+83-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:81:13-50
+84        <activity
+84-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:82:9-84:53
+85            android:name="com.cricket.cricgame.Screen1"
+85-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:83:13-36
+86            android:screenOrientation="landscape" />
+86-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:84:13-50
+87        <activity
+87-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:85:9-87:53
+88            android:name="com.cricket.cricgame.Screen2"
+88-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:86:13-36
+89            android:screenOrientation="landscape" />
+89-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:87:13-50
+90        <activity
+90-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:88:9-90:53
+91            android:name="com.cricket.cricgame.Screen3"
+91-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:89:13-36
+92            android:screenOrientation="landscape" />
+92-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:90:13-50
+93        <activity
+93-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:91:9-93:53
+94            android:name="com.cricket.cricgame.Screen4"
+94-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:92:13-36
+95            android:screenOrientation="landscape" />
+95-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:93:13-50
+96        <activity
+96-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:94:9-96:53
+97            android:name="com.cricket.cricgame.Screen5"
+97-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:95:13-36
+98            android:screenOrientation="landscape" />
+98-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:96:13-50
+99        <activity
+99-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:97:9-99:53
+100            android:name="com.cricket.cricgame.Screens1"
+100-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:98:13-37
+101            android:screenOrientation="landscape" />
+101-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:99:13-50
+102        <activity
+102-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:100:9-102:53
+103            android:name="com.cricket.cricgame.Screens2"
+103-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:101:13-37
+104            android:screenOrientation="landscape" />
+104-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:102:13-50
+105        <activity
+105-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:103:9-105:53
+106            android:name="com.cricket.cricgame.Screens3"
+106-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:104:13-37
+107            android:screenOrientation="landscape" />
+107-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:105:13-50
+108        <activity
+108-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:106:9-108:53
+109            android:name="com.cricket.cricgame.Screens2b"
+109-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:107:13-38
+110            android:screenOrientation="landscape" />
+110-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:108:13-50
+111        <activity
+111-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:109:9-111:53
+112            android:name="com.cricket.cricgame.Teamselectpayer2"
+112-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:110:13-45
+113            android:screenOrientation="landscape" />
+113-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:111:13-50
+114        <activity
+114-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:112:9-120:20
+115            android:name="com.cricket.cricgame.Team_name_a"
+115-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:113:13-40
+116            android:label="@string/title_activity_team_name_a"
+116-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:114:13-63
+117            android:parentActivityName="com.cricket.cricgame.Screens1"
+117-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:115:13-51
+118            android:screenOrientation="landscape" >
+118-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:116:13-50
+119            <meta-data
+119-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:117:13-119:65
+120                android:name="android.support.PARENT_ACTIVITY"
+120-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:118:17-63
+121                android:value="com.cricket.cricgame.Screens1" />
+121-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:119:17-62
+122        </activity>
+123        <activity
+123-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:121:9-129:20
+124            android:name="com.cricket.cricgame.TeamNameA"
+124-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:122:13-38
+125            android:label="@string/title_activity_team_name"
+125-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:123:13-61
+126            android:parentActivityName="com.cricket.cricgame.Screens1"
+126-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:124:13-51
+127            android:screenOrientation="landscape" >
+127-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:125:13-50
+128            <meta-data
+128-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:117:13-119:65
+129                android:name="android.support.PARENT_ACTIVITY"
+129-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:118:17-63
+130                android:value="com.cricket.cricgame.Screens1" />
+130-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:119:17-62
+131        </activity>
+132        <activity
+132-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:130:9-132:61
+133            android:name="com.cricket.cricgame.AAMainActivity"
+133-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:131:13-43
+134            android:label="@string/title_activity_aamain" />
+134-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:132:13-58
+135        <activity
+135-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:133:9-136:53
+136            android:name="com.cricket.cricgame.ScreenChall"
+136-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:134:13-40
+137            android:label="@string/title_activity_screen_chall"
+137-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:135:13-64
+138            android:screenOrientation="landscape" />
+138-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:136:13-50
+139        <activity
+139-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:137:9-140:53
+140            android:name="com.cricket.cricgame.ScreenChall1"
+140-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:138:13-41
+141            android:label="@string/title_activity_screen_chall1"
+141-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:139:13-65
+142            android:screenOrientation="landscape" />
+142-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:140:13-50
+143        <activity
+143-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:141:9-144:53
+144            android:name="com.cricket.cricgame.Screen6"
+144-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:142:13-36
+145            android:label="@string/title_activity_screen6"
+145-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:143:13-59
+146            android:screenOrientation="landscape" />
+146-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:144:13-50
+147        <activity
+147-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:145:9-148:53
+148            android:name="com.cricket.cricgame.Screen7"
+148-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:146:13-36
+149            android:label="@string/title_activity_screen7"
+149-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:147:13-59
+150            android:screenOrientation="landscape" />
+150-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:148:13-50
+151        <activity
+151-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:149:9-152:53
+152            android:name="com.cricket.cricgame.Screen8"
+152-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:150:13-36
+153            android:label="@string/title_activity_screen8"
+153-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:151:13-59
+154            android:screenOrientation="landscape" />
+154-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:152:13-50
+155        <activity
+155-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:153:9-156:53
+156            android:name="com.cricket.cricgame.Screen9"
+156-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:154:13-36
+157            android:label="@string/title_activity_screen9"
+157-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:155:13-59
+158            android:screenOrientation="landscape" />
+158-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:156:13-50
+159        <activity
+159-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:157:9-159:61
+160            android:name="com.cricket.cricgame.Breaks"
+160-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:158:13-35
+161            android:label="@string/title_activity_breaks" />
+161-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:159:13-58
+162        <activity
+162-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:160:9-162:53
+163            android:name="com.cricket.listView.CustomizedListView"
+163-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:161:13-67
+164            android:screenOrientation="landscape" />
+164-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:162:13-50
+165        <activity
+165-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:163:9-167:20
+166            android:name="shaily.wifi.Camera.WiFiDirectActivity"
+166-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:164:13-65
+167            android:label="@string/app_name"
+167-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:165:13-45
+168            android:launchMode="singleTask" >
+168-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:166:13-44
+169        </activity>
+170        <activity android:name="shaily.wifi.Camera.AndroidVideoCapture" >
+170-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:168:9-169:20
+170-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:168:19-72
+171        </activity>
+172
+173        <!-- Used for transferring files  after a successful connection -->
+174        <service
+174-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:172:9-174:38
+175            android:name="shaily.wifi.Camera.FileTransferService"
+175-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:173:13-66
+176            android:enabled="true" />
+176-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:174:13-35
+177        <service
+177-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:175:9-177:38
+178            android:name="shaily.wifi.Camera.WiFiClientIPTransferService"
+178-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:176:13-74
+179            android:enabled="true" />
+179-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:177:13-35
+180
+181        <receiver
+181-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:179:9-188:20
+182            android:name="com.cricket.reciever.NetworkReceiver"
+182-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:180:13-64
+183            android:enabled="true" >
+183-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:181:13-35
+184            <intent-filter>
+184-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:182:13-184:29
+185                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+185-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:183:17-79
+185-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:183:25-76
+186            </intent-filter>
+187            <intent-filter>
+187-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:185:13-187:29
+188                <action android:name="com.cricket.upload" />
+188-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:186:17-61
+188-->/Users/shailendra/Documents/MyStudy/CrickScore/Crick2017/app/src/main/AndroidManifest.xml:186:25-58
+189            </intent-filter>
+190        </receiver>
+191    </application>
+192
+193</manifest>

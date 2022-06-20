@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000">
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="150.0dip"
+        android:layout_height="80.0dip"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/name"
+        android:src="@drawable/next1" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="500.0dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:inputType="textCapCharacters"
+        android:paddingLeft="60.0dip"
+        android:singleLine="true"
+        android:textSize="40.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:text="Please Enter Game Price"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="40.0sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000">
+
+    <TextView
+        android:id="@+id/customer_satisfactionlabel1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="112.0dip"
+        android:gravity="center"
+        android:text="How Many Member Min 2 and Max 8 "
+        android:textColor="#ffffffff"
+        android:textSize="40.0dip"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45.0dip"
+        android:text="Team B"
+        android:textColor="#ffffff"
+        android:textSize="40.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/over"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="112.0dip"
+        android:gravity="center"
+        android:text="Which Team Will Play First "
+        android:textColor="#ffffffff"
+        android:textSize="40.0dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/over"
+        android:layout_width="500.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_satisfactionlabel1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:ems="10"
+        android:inputType="number"
+        android:paddingLeft="60.0dip"
+        android:singleLine="true"
+        android:textSize="35.0dip"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/radioA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextView01"
+        android:layout_alignLeft="@id/radioB"
+        android:layout_marginTop="30.0dip"
+        android:text="Team A"
+        android:textColor="#ffffff"
+        android:textSize="40.0dip"
+        android:textStyle="bold" />
+
+</RelativeLayout>

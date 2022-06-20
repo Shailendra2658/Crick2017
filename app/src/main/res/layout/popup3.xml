@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D70000"
+    android:orientation="vertical" >
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/anim" />
+
+    <TextView
+        android:id="@+id/anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="TOP SCORE"
+        android:textColor="#ffffff" />
+<TextView
+        android:id="@+id/demovideoanimation"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textSize="400dp"
+        android:textStyle="bold"
+                android:textColor="#000000"
+        
+        android:fontFamily="fonts/TIMES.TTF"
+        android:text="DEMO" 
+        android:visibility="gone"/>
+    
+</RelativeLayout>

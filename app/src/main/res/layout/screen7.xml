@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000">
+
+    <ImageView
+        android:id="@id/restart"
+        android:layout_width="104.0dip"
+        android:layout_height="104.0dip"
+        android:layout_x="-2.0dip"
+        android:layout_y="-7.0dip"
+        android:src="@drawable/delete" />
+
+    <TextView
+        android:id="@+id/chill"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="386.0dip"
+        android:layout_marginTop="156.0dip"
+        android:layout_x="0.0dip"
+        android:layout_y="178.0dip"
+        android:gravity="center"
+        android:text="CHILL! NITIN"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="70.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="458.0dip"
+        android:gravity="center"
+        android:text="100"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="150.0dip" />
+
+    <TextView
+        android:id="@id/total"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="378.0dip"
+        android:gravity="center"
+        android:text="Your Score is"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="70.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0.0dip"
+        android:layout_y="278.0dip"
+        android:gravity="center"
+        android:text="You Can Do Better "
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffffff"
+        android:textSize="70.0dip"
+        android:textStyle="bold" />
+</AbsoluteLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/t_bg" android:drawable="@drawable/button_down" />
+    <item android:left="5.0dip" android:top="0.0dip">
+        <bitmap android:gravity="left" android:src="@drawable/settings" />
+    </item>
+</layer-list>

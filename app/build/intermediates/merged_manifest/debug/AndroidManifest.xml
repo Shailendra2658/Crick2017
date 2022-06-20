@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cricket.cricgame"
+    android:versionCode="29"
+    android:versionName="2.5" >
+
+    <uses-sdk
+        android:maxSdkVersion="21"
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" />
+    <!-- Google Play filtering -->
+    <uses-feature
+        android:name="android.hardware.wifi.direct"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:testOnly="true"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+        <activity
+            android:name="com.cricket.preference.PreferencesActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cricket.preference.WifiSettings"
+            android:label="@string/title_activity_wifi_settings" >
+        </activity>
+        <activity
+            android:name="com.cricket.cricgame.TryUpload"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.cricket.cricgame.Auth"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.cricket.cricgame.Main"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cricket.cricgame.Phonesetting"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Pricing"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen0"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Popup2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screens1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screens2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screens3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screens2b"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Teamselectpayer2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Team_name_a"
+            android:label="@string/title_activity_team_name_a"
+            android:parentActivityName="com.cricket.cricgame.Screens1"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cricket.cricgame.Screens1" />
+        </activity>
+        <activity
+            android:name="com.cricket.cricgame.TeamNameA"
+            android:label="@string/title_activity_team_name"
+            android:parentActivityName="com.cricket.cricgame.Screens1"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.cricket.cricgame.Screens1" />
+        </activity>
+        <activity
+            android:name="com.cricket.cricgame.AAMainActivity"
+            android:label="@string/title_activity_aamain" />
+        <activity
+            android:name="com.cricket.cricgame.ScreenChall"
+            android:label="@string/title_activity_screen_chall"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.ScreenChall1"
+            android:label="@string/title_activity_screen_chall1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen6"
+            android:label="@string/title_activity_screen6"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen7"
+            android:label="@string/title_activity_screen7"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen8"
+            android:label="@string/title_activity_screen8"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Screen9"
+            android:label="@string/title_activity_screen9"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.cricket.cricgame.Breaks"
+            android:label="@string/title_activity_breaks" />
+        <activity
+            android:name="com.cricket.listView.CustomizedListView"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="shaily.wifi.Camera.WiFiDirectActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity android:name="shaily.wifi.Camera.AndroidVideoCapture" >
+        </activity>
+
+        <!-- Used for transferring files  after a successful connection -->
+        <service
+            android:name="shaily.wifi.Camera.FileTransferService"
+            android:enabled="true" />
+        <service
+            android:name="shaily.wifi.Camera.WiFiClientIPTransferService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.cricket.reciever.NetworkReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.cricket.upload" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

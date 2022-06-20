@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cricket</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_team_name_a">Team_name_a</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_team_name">TeamNameA</string>
+    <string name="title_activity_aamain">AAMainActivity</string>
+    <string name="title_activity_screen_chall">ScreenChall</string>
+    <string name="title_activity_screen_chall1">ScreenChall1</string>
+    <string name="title_activity_screen6">Screen6</string>
+    <string name="title_activity_screen7">Screen7</string>
+    <string name="title_activity_screen8">Screen8</string>
+    <string name="title_activity_screen9">Screen9</string>
+    <string name="title_activity_breaks">Breaks</string>
+    <string name="title_activity_auth1">Auth1</string>
+    <string name="my_name">TopScore</string>
+    <string name="peer">PEERS</string>
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Launch Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="stop">Stop</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="empty"></string>
+    <string name="title_activity_wifi_settings">WifiSettings</string>
+
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffff0000">
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100.0dip"
+        android:layout_marginRight="150.0dip"
+        android:text="Select Level"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="50.0sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="400.0dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/bowller"
+            android:layout_width="130.0dip"
+            android:layout_height="150.0dip" />
+
+        <ImageView
+            android:id="@+id/bowller2"
+            android:layout_width="130.0dip"
+            android:layout_height="150.0dip"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/bowller1"
+            android:layout_width="130.0dip"
+            android:layout_height="150.0dip"
+            android:layout_centerHorizontal="true"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/bowller5"
+            android:layout_width="130.0dip"
+            android:layout_height="150.0dip"
+            android:layout_alignTop="@id/bowller3"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:id="@+id/bowller3"
+            android:layout_width="130.0dip"
+            android:layout_height="150.0dip"
+            android:layout_below="@id/bowller"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="40.0dip" />
+
+        <ImageView
+            android:id="@+id/bowller4"
+            android:layout_width="130.0dip"
+            android:layout_height="150.0dip"
+            android:layout_alignLeft="@id/bowller1"
+            android:layout_alignTop="@id/bowller5" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/TextView01"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="103.0dip"
+        android:text="    Select Bowler"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="50.0sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/TextView01"
+        android:layout_alignTop="@id/relativeLayout1"
+        android:layout_alignRight="@id/TextView01"
+        android:layout_marginTop="44.0dip">
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Practice  "
+            android:textColor="#ffffff"
+            android:textSize="30.0sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:layout_weight="2.0"
+            android:text="Mature "
+            android:textColor="#ffffff"
+            android:textSize="30.0sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip"
+            android:layout_weight="1.0"
+            android:text="Professional"
+            android:textColor="#ffffff"
+            android:textSize="30.0sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+</RelativeLayout>
